@@ -268,13 +268,15 @@ header{
     opacity: 0.5;
 }
 
-.services{
-    margin-bottom: 4em;
+.service ul {
+    display: inline-block;
+    text-align: left;
 }
 
-.service{
-    max-width: 500px;
-    margin: 0 auto;
+.service {
+    text-align: center;
+    margin: 2em auto 2em;
+
 }
 
 @media (min-width: 600px) {
@@ -299,6 +301,10 @@ header{
 
 .about-me__img{
     box-shadow: var(--bs);
+}
+
+.about-me__body {
+    line-height: 130%;
 }
 
 @media (min-width: 600px) {
@@ -422,4 +428,107 @@ header{
 .social-list__link{
     padding: .5em;
 }
+
+/* -------------------------------------------- */
+
+.nav-container button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 1%;
+    
+}
+
+.nav-container button:hover {
+    background-color: #555;
+}
+
+.app-logos {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fffaf2;
+    
+    margin-top: 5%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    border-radius: 25px;
+}
+
+.app-logos li {
+    margin: 0 10px; /* Adjust as needed */
+    float: left;
+}
+
+.app-logos img {
+    width: 85px; /* Adjust as needed */
+    height: 85px; /* Adjust as needed */
+}
+
+.smaller-services {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.smaller-services ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10px;
+    width: 90px; /* Adjust as needed */
+    height: 90px; /* Adjust as needed */
+}
+
+.skill-information {
+    align-items: center;
+    padding-top: 5%;
+   
+}
+
+.skill-information ul {
+    list-style: none;
+    font-size:120%
+    
+}
+
+
+.skill-information ul li {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .smaller-services {
+        flex-direction: column;
+    }
+
+    .app-logos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .app-logos li {
+        margin-bottom: 10px;
+    }
+
+    .skill {
+        width: auto;
+        height: auto;
+    }
+}
+
+
+
+
 

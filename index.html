@@ -18,26 +18,6 @@
     </head>
 
     <body>
-    <!--Header-->
-<!--        <header>-->
-<!--            <div class="logo">-->
-<!--    &lt;!&ndash;            will add a logo here&ndash;&gt;-->
-<!--               < Raisa's File >-->
-<!--            </div>-->
-
-<!--            <button class="nav-toggle" aria-label="toggle navigation">-->
-<!--                <span class="hamburger"></span>-->
-<!--            </button>-->
-<!--            <nav class="nav">-->
-<!--                <ul class="nav__list">-->
-<!--                    <li class="nav__item"><a href="#home" class="nav__link">Home</a>Home</li>-->
-<!--                    <li class="nav__item"><a href="#services" class="nav__link">My services</a>My services</li>-->
-<!--                    <li class="nav__item"><a href="#about" class="nav__link">About me</a>About me</li>-->
-<!--                    <li class="nav__item"><a href="#work" class="nav__link">My projects</a>My projects</li>-->
-<!--                </ul>-->
-<!--            </nav>-->
-<!--        </header>-->
-
     <!--    introduction-->
         <section class="intro" id="home">
             <h1 class="section__title section__title--intro">
@@ -83,100 +63,138 @@
         </section>
 
     <!--    Services-->
-        <section class="my-services" id="services">
-            <h2 class="section__title--services">My Services</h2>
-            <div class="services">
-                <div class="service">
-                    <h3>Design and Development</h3>
-                    <p>
-                        I'm capable to host <strong> brainstorm sessions with colleagues </strong> to find fresh ideas for a product the client might need using various
-                        methods like: <strong>ideation, mind-mapping, reverse-brainstorming, sketching and more.</strong>
-                    </p>
-                    <p>
-                        I also <strong> talk to the client </strong> to have a further conversation about what's next and
-                        about the development of the product.
-                    </p>
-                    <p>
-                        Furthermore, I can <strong> prototype concepts like web-designs, physical applications and game design.</strong>
-                    </p>
-                    <p>
-                        I have experience in design and art focused applications like <strong> Adobe XD, Figma and ClipStudioPaint EX.</strong>
-                    </p>
-                </div> <!--     service-->
+    <section class="my-services" id="services">
+        <h2 class="section__title--services">My skills</h2>
+        <div class="navigation nav-container">
+            <button onclick="showSection('programming')">Programming and development</button>
+            <button onclick="showSection('design')">Art, Design and Editing</button>
+            <button onclick="showSection('research')">Project research and management</button>
+        </div>
 
-
-                <div class="service">
-                    <h3>Programming</h3>
-                    <p>
-                        I am capable with <strong> programming</strong> with the languages: <strong>HTML (5/4), CSS, JavaScript and NodeJS.</strong>
-                    </p>
-                    <p>
-                        I am also capable of <strong>creating algorithms using TensorFlow and ML5</strong>. Furthermore, I am known with <strong>frameworks like Laravel.</strong>
-                    </p>
-                    <p>
-                        Personally I also have experience in <strong>back-end development with PHP</strong>, but I mainly focus on front-end development.
-                    </p>
-                </div> <!--     service-->
-
-
-                <div class="service">
-                    <h3>Research</h3>
-                    <p>
-                        I can do research, from <strong>desk research to interview with people.</strong>
-                    </p>
-                    <p>
-                        I've created <strong>research papers for program projects on accessibility, emission, datasets, and more.</strong>
-                    </p>
-                    <p>
-                        Furthermore, I've experience <strong>interviewing and testing with people</strong>, online and physically.
-                    </p>
-                    <p>
-                        I'm also capable of creating <strong>data and algorithms</strong> using Neural networks and making decision trees with JavaScript.
-                    </p>
+        <div class="services">
+            <div id="programming" class="service">
+                <h3>Programming and development</h3>
+                <p>Programming Languages:</p>
+                <ul class="app-logos">
+                    <li><img src="img\Programming\Basic.png" alt="HTML/CSS/JavaScript"></li>
+                    <li><img src="img\Programming\typescript.png" alt="typescript"></li>
+                    <li><img src="img\Programming\React.png" alt="React"></li>
+                    <li><img src="img\Programming\php.png" alt="PHP"></li>
+                    <li><img src="img\Programming\c++.png" alt="C++"></li>
+                    <li><img src="img\Programming\nodejs.png" alt="nodejs"></li>
+                </ul>
+                </ul>
+                <p>Frameworks and game engines:</p>
+                <ul class="app-logos">
+                    <li><img src="img\Programming\Laravel.png" alt="Laravel"></li>
+                    <li><img src="img\Programming\React Native.png" alt="React Native"></li>
+                    <li><img src="img\Programming\vuejs.png" alt="vuejs"></li>
+                    <li><img src="img\Programming\unity.png" alt="unity"></li>
+                    <li><img src="img\Programming\expo.png" alt="expo"></li>
+                    <li><img src="img\Programming\bootstrap.png" alt="bootstrap"></li>
+                    <li><img src="img\Programming\tailwindcss.png" alt="tailwindcss"></li>
+                </ul>
+                
+                <div class="smaller-services">
+                    <div id="source-code">
+                        <p>Source Code Management:</p>
+                            <ul class="app-logos">
+                                <li><img src="img\Programming\github.png" alt="tensorflow"></li>
+                                <li><img src="img\Programming\sourcetree.png" alt="ml5"></li>
+                            </ul>
+                    </div>
+                    <div id="database">
+                        <p>Database Services:</p>
+                        <ul class="app-logos">
+                            <li><img src="img\Programming\mysql.png" alt="mysql"></li>
+                            <li><img src="img\Programming\mongodb.png" alt="mongdb"></li>
+                            <li><img src="img\Programming\firebase.png" alt="firebase"></li>
+                        </ul>
+                    </div>
+                    <div id="algorithms">
+                        <p>Algorithms:</p>
+                        <ul class="app-logos">
+                            <li><img src="img\Programming\Tensorflow.png" alt="tensorflow"></li>
+                            <li><img src="img\Programming\ml5.png" alt="ml5"></li>
+                        </ul>
+                    </div>
                 </div>
-                <!--     service-->
+                <div class="skill-information">
+                    <h3>Experience in developing</h3>
+                    <ul>
+                        <li><strong>Web APIs</strong>: Proficient in creating Web APIs, with capabilities extending to the development of CRUD systems, pagination mechanisms, and detailed API endpoints.</li>
+                        <li><strong>CRUD Applications</strong>: Skilled in creating dynamic CRUD applications tailored for both web and mobile platforms.</li>
+                        <li><strong>Mobile Development</strong>: Utilize React Native and Expo to create mobile applications specifically for iOS.</li>
+                        <li><strong>Web Development</strong>: Competent in constructing responsive and user-friendly websites.</li>
+                        <li><strong>Game Development</strong>: Experienced in game creation using Unity and C++, demonstrating a blend of creativity and technical prowess.</li>                        
+                    </ul>
+                </div>
+            </div>
+            <div id="design" class="service" style="display: none;">
+                <h3>Art, Design and Editing</h3>
+                <p>Experienced in design, editing and art focused applications:</p>
+                <ul class="app-logos">
+                    <li><img src="img\Design\Adobe-XD.png" alt="Adobe XD"></li>
+                    <li><img src="img\Design\AdobeAfterEffects.png" alt="After Effects"></li>
+                    <li><img src="img\Design\Figma.png" alt="Figma"></li>
+                    <li><img src="img\Design\CSP.png" alt="ClipStudioPaint EX"></li>
+                    <li><img src="img\Design\Procreate.png" alt="Procreate"></li>
+                    <li><img src="img\Design\Lumifusion.png" alt="Lumafusion"></li>
+                </ul>
+                <div class="skill-information">
+                    <h3>Experience in creating</h3>
+                    <ul>        
+                        <li><strong>Brainstorming Sessions</strong>: Proficient in hosting brainstorm sessions with colleagues, fostering a creative environment to generate fresh product ideas tailored to client needs.</li>
+                        <li><strong>Ideation Methods</strong>: Experienced in employing various ideation techniques such as mind-mapping, reverse-brainstorming, and sketching, enhancing the creative process.</li>
+                        <li><strong>Illustration</strong>: Proficient in creating compelling illustrations that enhance visual communication and contribute to the overall design aesthetics.</li>                        <li><strong>Prototyping</strong>: Skilled in prototyping a range of concepts, including web designs, physical applications, and game designs, bringing ideas to life.</li>
+                    </ul>
+                </div>
             </div>
 
-            <a href="#work" class="btn">My Work</a>
-        </section>
+            <div id="research" class="service" style="display: none;">
+                <h3>Project research and management</h3>
+                <p>Experienced in writing, research and project management focused applications:</p>
+                <ul class="app-logos">
+                    <li><img src="img\Project management\trello.png" alt="trello"></li>
+                    <li><img src="img\Project management\notion.png" alt="notion"></li>
+                    <li><img src="img\Project management\google docs.png" alt="googledocs"></li>
+                    <li><img src="img\Project management\spreadsheets.png" alt="spreadsheets"></li>
+                    <li><img src="img\Project management\clockify.png" alt="clockify"></li>
+                </ul>
+                <div class="skill-information">
+                    <h3>Experience in managing</h3>
+                    <ul>
+                        <li><strong>Client Communication</strong>: Actively engages in dialogues with clients, ensuring transparency and alignment in discussing product development stages and next steps.</li>
+                        <li><strong>Research Skills</strong>: Proficient in conducting both desk and physical research, including interviewing individuals and conducting on-site tests, showcasing a comprehensive approach to information gathering.</li>
+                        <li><strong>Project Management</strong>: Exhibits skill in managing projects within groups, with a focus on maintaining clarity and organization, ensuring efficient workflow and team synergy.</li>
+                        <li><strong>Research Papers</strong>: Capable of crafting research papers tailored to the client's needs and project relevance, reflecting a strong understanding of subject matter and client requirements.</li>                        
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </section>
 
         <!--    About Me-->
         <section class="about-me" id="about">
             <h2 class="section__title--about"> Who am I?</h2>
-            <p class="section__subtitle--about">A Designer and front-end developer from Leiden</p>
+            <p class="section__subtitle--about">A fullstack developer from Leiden</p>
             <!--    About Me description-->
             <div class="about-me__body">
-                <p>I'm <strong>Raisa Mahesvara Niadilova</strong>, a 20-year-old Indonesian who likes to work with people to create new applications, designs,
-                    and more for the web or apps for people to enjoy.
-                </p>
-                <p>
-                    Currently, I'm in my second year studying at the Rotterdam University of Applied Sciences and majoring in Creative Media Game Technologies (in short CMGT)
-                    to become a front-end or full-stack web developer.
-                </p>
-                <p>
-                    I'm quite new to the IT world since I <strong>started programming 2 years ago</strong> but my curiosity and interests haven't
-                    stopped me from being <strong>interested in learning and making games, websites, and applications.</strong>
-                </p>
-                <p>
-                    <strong>My motivation to know more and get information to sharpen my current skills drives me to get better.</strong>
-                </p>
+                <p>Hi, I'm <strong>Raisa Mahesvara Niadilova</strong>, a 22-year-old Indonesian studying <strong>Creative Media Game Technologies at the Rotterdam University of
+                    Applied Sciences</strong>. Despite being relatively new to the IT world, <strong>with 4 years of experience</strong>, my passion for creating web and mobile applications, as well as games, 
+                    continues to grow.
             </div>
 
             <div class="about-me__body">
-                <h3 class="section__title--about"> Work Experience</h3>
-                <p>
-                    Most of my work experience is derived from the major that I'm currently doing and my current job called "Peercoaching".
-                    <br>From these experiences, I've experienced working and discussing with people from young to old ages and from different backgrounds.
-                </p>
-                <p>
-                    I have worked with people for university projects that are related to the target audiences we had. For example, I've worked with someone who wasn't capable of seeing and moving well. I've done countless interviews and test research with them for the Questa application (see my works).
-                </p>
-                <p>
-                    Furthermore, I'm quite flexible and punctual when I'm in a team. I schedule or communicate with my colleagues well so we can improve and make progress on our projects.
-                </p>
-                <p>
-                    Working with people is a good way to also learn things from them too, so I also see the benefit to learn about my surroundings and discover things I haven't known yet.
-                </p>
+                <div class="skill-information">
+                    <h3 class="section__title--about"> Work Experience</h3>
+                    <ul>
+                        <li><strong>Peercoaching</strong>: Gained valuable experience in working with diverse individuals, from young to old, and from various backgrounds. This role enhanced my communication skills and ability to work in a team.</li>
+                        <li><strong>Intern at Onwego</strong>: Served as a full-stack developer and marketing editor. My responsibilities included creating APIs, front-end web design, and producing marketing promotion videos.</li>
+                        <li><strong>Game Design Minor at Rotterdam University of Applied Sciences</strong>: Held the position of Art Lead during the Game Design minor. I communicated with several departments, including the development and game design department, and contributed to the creation of the game seasons of Rocco.</li>
+                    </ul>
+                </div>
             </div>
 
 
@@ -280,5 +298,6 @@
             <p>© Raisa Mahesvara Niadilova, 2022</p>
         </footer>
 
+        <script src="main.js"></script>
     </body>
 </html>
