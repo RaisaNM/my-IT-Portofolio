@@ -188,98 +188,168 @@
 
             <div class="about-me__body">
                 <div class="skill-information">
-                    <h3 class="section__title--about"> Work Experience</h3>
+                    <h2 class="section__title--about"> Work Experience</h2>
                     <ul>
-                        <li><strong>Peercoaching</strong>: Gained valuable experience in working with diverse individuals, from young to old, and from various backgrounds. This role enhanced my communication skills and ability to work in a team.</li>
-                        <li><strong>Intern at Onwego</strong>: Served as a full-stack developer and marketing editor. My responsibilities included creating APIs, front-end web design, and producing marketing promotion videos.</li>
-                        <li><strong>Game Design Minor at Rotterdam University of Applied Sciences</strong>: Held the position of Art Lead during the Game Design minor. I communicated with several departments, including the development and game design department, and contributed to the creation of the game seasons of Rocco.</li>
-                    </ul>
+                        <li>
+                          <h3 class="work-exp">Peercoaching</h3>
+                          <p><strong>Position:</strong> Peercoach for first years (September 2021 - August 2022)</p>
+                          <p>Gained valuable experience in working with the peercoach team and guiding first years This role enhanced my communication skills and ability to work in a team.</p>
+                        </li>
+                      
+                        <li>
+                          <h3 class="work-exp">Intern at Onwego</h3>
+                          <p><strong>Position:</strong> Fullstack developer and After Effects editor intern (September 2022 - January 2023)</p>
+                          <p>Served as a full-stack developer and marketing editor. My responsibilities included creating APIs, front-end web design, and producing marketing promotion videos.</p>
+                        </li>
+                      
+                        <li>
+                          <h3 class="work-exp">Art Lead at Vivid Visions Studios</h3>
+                          <p><strong>Position:</strong> Art department lead (September 2023 - January 2024)</p>
+                          <p>Held the position of Art Lead during the Game Design minor. I communicated with several departments, including the development and game design department, and contributed to the creation of the game: Seasons of Rocco.</p>
+                        </li>
+                      </ul>
                 </div>
             </div>
 
 
             <img src="img/IMG_4211.jpg" alt="Raisa standing against a restaurant" class="about-me__img">
         </section>
-
-
+        
     <!--    My work-->
         <section class="my-work" id="work">
             <h2 class="section__title">Projects</h2>
-                <p class="section__subtitle--work">
-                    <u>Main projects</u> <br>
-                    Projects I've worked on for a long period and proffesionally have worked with alongside people.
-                </p>
-
-                <div class="portofolio">
-                      <!--    Portofolio img-->
-                <a href="https://youtu.be/wUh2BVtgsrg" class="portofolio__item">
-                    <p>Questa: Accessibility application</p>
-                    <img src="img/q1.png" alt="Questa" class="portofolio_img">
-                    <img src="img/@1.png" alt="Questa" class="portofolio_img">
-                </a>
-
-                <!--    Portofolio img-->
-                <a href="https://www.youtube.com/watch?v=yBC5Rm0ztjc" class="portofolio__item">
-                    <p>Reservation system: Car reparation Nieuw Rijswijk</p>
-                    <img src="img/reservation system.png" alt="Reservation System Rijswijk Car Repair" class="portofolio_img">
-                </a>
-
+            <button onclick="showProject('mainProjects')">Main Projects</button>
+            <button onclick="showProject('sideProjects')">Side Projects</button>
+            
+            <div class="slide-container">
+                <div class="slide project active" id="mainProjects">
+                  <p class="section__subtitle--work"><u>Main projects</u></p>
+                  <div class="portofolio">
+                    <a href="https://youtu.be/wUh2BVtgsrg" class="portofolio__item">
+                      <div class="project-image">
+                        <img src="img/q1.png" alt="Questa">
+                        <div class="overlay">
+                          <h3>Questa: Accessibility application</h3>
+                          <span class="tag">HTML</span>
+                          <span class="tag">CSS</span>
+                          <p>Test</p>
+                        </div>
+                      </div>
                     </a>
+                    <a href="https://store.steampowered.com/app/2700510/Seasons_of_Rocco/" class="portofolio__item">
+                        <div class="project-image">
+                          <img src="img\Seasons of rocco.jpg" alt="Seasons Of Rocco">
+                          <div class="overlay">
+                            <h3>Seasons Of Rocco</h3>
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                          </div>
+                        </div>
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=yBC5Rm0ztjc" class="portofolio__item">
+                        <div class="project-image">
+                          <img src="img/reservation system.png" alt="Reservation System Rijswijk Car Repair">
+                          <div class="overlay">
+                            <h3>Reservation System Rijswijk Car Repair</h3>
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                          </div>
+                        </div>
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=x5W317hF2FE" class="portofolio__item">
+                        <div class="project-image">
+                          <img src="img\Insect-app.png" alt="Insect App">
+                          <div class="overlay">
+                            <h3>Insect App</h3>
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                          </div>
+                        </div>
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=peuvq3A-ih0" class="portofolio__item">
+                        <div class="project-image">
+                          <img src="img\Storyline strategist.png" alt="Storyline Strategist">
+                          <div class="overlay">
+                            <h3>Storyline Strategist</h3>
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                          </div>
+                        </div>
+                    </a>
+                    <!-- Add more main projects here -->
+                  </div>
                 </div>
-
-            <p class="section__subtitle--work">
-                <u>Side and test projects</u> <br>
-                Working side projects I've done for practice or for fun.
-            </p>
-
-            <div class="portofolio">
-                <!--    Portofolio img-->
-                <a href="https://raisanm.github.io/imagePredict/" class="portofolio__item">
-                    <p>Image Classifier</p>
-                    <img src="img/mgc.png" alt="Image Classifier" class="portofolio_img">
-                </a>
-
-                <!--    Portofolio img-->
-                <a href="https://raisanm.github.io/Neural-Network/" class="portofolio__item">
-                    <p>Neural Network</p>
-                    <img src="img/nn.png" alt="Neural Network" class="portofolio_img">
-                </a>
-
-                <!--    Portofolio img-->
-                <a href="https://raisanm.github.io/Decision-Tree/" class="portofolio__item">
-                    <p>Decision Tree</p>
-                    <img src="img/dct.png" alt="Decision Tree" class="portofolio_img">
-                </a>
-                  <!--    Portofolio img-->
-                  <a href=https://raisanm.github.io/Pokedex-Cards/ class="portofolio__item">
-                    <p>Pokedex Cards</p>
-                    <img src="img/pkm.png" alt="Pokedex Cards" class="portofolio_img">
-                </a>
-
-                <!--    Portofolio img-->
-                <a href="https://raisanm.github.io/Treasure-Game/" class="portofolio__item">
-                    <p>Treasure Chest</p>
-                    <img src="img/trsc.png" alt="Treasure Game" class="portofolio_img">
-                </a>
-
-                <!--    Portofolio img-->
-                <a href="https://raisanm.github.io/To-Do-List/" class="portofolio__item">
-                    <p>To-do-list</p>
-                    <img src="img/tdl.png" alt="To-Do-List" class="portofolio_img" >
-
-            </div>
-
-            <!-- this section will be deleted -->
-          <p class="section__subtitle--work">
-              <u>Designs</u> <br>
-              Here you can see designs that I've made within big projects. <br>
-              Arranging from UI designs to game design.
-          </p>
-            <div class="portofolio">
               
-            </div>
+                <div class="slide project" id="sideProjects" style="display: none;">
+                  <p class="section__subtitle--work"><u>Side and test projects</u></p>
+                  <div class="portofolio">
+                    <a href="https://raisanm.github.io/imagePredict/" class="portofolio__item">
+                      <div class="project-image">
+                        <img src="img/mgc.png" alt="Image Classifier">
+                        <div class="overlay">
+                          <h3>Image Classifier</h3>
+                          <span class="tag">Python</span>
+                          <span class="tag">Machine Learning</span>
+                        </div>
+                      </div>
+                    </a>
+                    <a href="https://raisanm.github.io/Neural-Network/" class="portofolio__item">
+                        <div class="project-image">
+                          <img src="img/nn.png" alt="Neural Network Test">
+                          <div class="overlay">
+                            <h3>Neural Network Test</h3>
+                            <span class="tag">Python</span>
+                            <span class="tag">Machine Learning</span>
+                          </div>
+                        </div>
+                    </a>
+                    <a href="https://raisanm.github.io/Decision-Tree/" class="portofolio__item">
+                        <div class="project-image">
+                          <img src="img/dct.png" alt="Decision Tree Test">
+                          <div class="overlay">
+                            <h3>Decision Tree Test</h3>
+                            <span class="tag">Python</span>
+                            <span class="tag">Machine Learning</span>
+                          </div>
+                        </div>
+                    </a>
+                    <a href="https://raisanm.github.io/Pokedex-Cards/" class="portofolio__item">
+                        <div class="project-image">
+                          <img src="img/pkm.png" alt="Pokedex Cards">
+                          <div class="overlay">
+                            <h3>Pokedex Cards</h3>
+                            <span class="tag">Python</span>
+                            <span class="tag">Machine Learning</span>
+                          </div>
+                        </div>
+                    </a>
+                    <a href="https://raisanm.github.io/Treasure-Game/" class="portofolio__item">
+                        <div class="project-image">
+                          <img src="img/trsc.png" alt="Treasure Chest">
+                          <div class="overlay">
+                            <h3>Treasure Chest</h3>
+                            <span class="tag">Python</span>
+                            <span class="tag">Machine Learning</span>
+                          </div>
+                        </div>
+                    </a>
+                    <a href="https://raisanm.github.io/To-Do-List/" class="portofolio__item">
+                        <div class="project-image">
+                          <img src="img/tdl.png" alt="To-do-list">
+                          <div class="overlay">
+                            <h3>To-do-list</h3>
+                            <span class="tag">Python</span>
+                            <span class="tag">Machine Learning</span>
+                          </div>
+                        </div>
+                    </a>
+                    <!-- Add more side and test projects here -->
+                  </div>
+                </div>
+              </div>
+              
+              
         </section>
-
 
         <!--    Footer-->
         <footer class="footer">
