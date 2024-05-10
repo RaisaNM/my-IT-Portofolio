@@ -101,11 +101,13 @@ h3{font-size: var(--fs-h3)}
 
 .section__title{
     margin-bottom: .25em;
+    color: var(--clr-accent);
 }
 
 .section__title--intro{
     font-weight: var(--fw-reg);
     color: var(--clr--light);
+
 }
 
 .section__title--intro strong{
@@ -359,9 +361,11 @@ header{
 }
 
 .section__subtitle--work{
-    color: var(--clr-accent);
-    font-weight: var(--fw-bold);
-    margin-bottom: 2em;
+   /* color: var(--clr-accent); */
+    /* font-weight: var(--fw-bold);  */
+    margin-bottom: 1em;
+    margin-top: 1em;
+    font-size: 200%;
 }
 
 /* .portofolio{

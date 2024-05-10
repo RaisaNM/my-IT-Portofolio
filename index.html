@@ -214,12 +214,14 @@
 
             <img src="img/IMG_4211.jpg" alt="Raisa standing against a restaurant" class="about-me__img">
         </section>
-        
+
     <!--    My work-->
         <section class="my-work" id="work">
             <h2 class="section__title">Projects</h2>
-            <button onclick="showProject('mainProjects')">Main Projects</button>
-            <button onclick="showProject('sideProjects')">Side Projects</button>
+            <div class="navigation nav-container">
+              <button onclick="showProject('mainProjects')">Main Projects</button>
+              <button onclick="showProject('sideProjects')">Side Projects</button>
+            </div>
             
             <div class="slide-container">
                 <div class="slide project active" id="mainProjects">
@@ -230,9 +232,13 @@
                         <img src="img/q1.png" alt="Questa">
                         <div class="overlay">
                           <h3>Questa: Accessibility application</h3>
-                          <span class="tag">HTML</span>
-                          <span class="tag">CSS</span>
-                          <p>Test</p>
+                          <span class="tag">React</span>
+                          <span class="tag">React Native</span>
+                          <span class="tag">Expo</span>
+                          <span class="tag">JavaScript</span>
+                          <span class="tag">2022-2023</span>
+                          <p>An application developed and designed to assist people with accessibility issues.</p>
+                          <p>The app's primary function is to aid users in filling out questionnaires on the go, making it a valuable tool for those who may struggle with traditional forms.</p>
                         </div>
                       </div>
                     </a>
@@ -241,8 +247,13 @@
                           <img src="img\Seasons of rocco.jpg" alt="Seasons Of Rocco">
                           <div class="overlay">
                             <h3>Seasons Of Rocco</h3>
-                            <span class="tag">HTML</span>
-                            <span class="tag">CSS</span>
+                            <span class="tag">Unity</span>
+                            <span class="tag">Blender</span>
+                            <span class="tag">Figma</span>
+                            <span class="tag">ClipStudioPaint EX</span>
+                            <span class="tag">2023-2024</span>
+                            <p>The game revolves around a character named Rocco, who must survive the winter by collecting various fruits.</p>
+                            <p>The game offers two playable seasons, Autumn and Spring, and provides a tranquil haven for players, offering a peaceful escape for those who cherish relaxation over challenges</p>        
                           </div>
                         </div>
                     </a>
@@ -251,8 +262,13 @@
                           <img src="img/reservation system.png" alt="Reservation System Rijswijk Car Repair">
                           <div class="overlay">
                             <h3>Reservation System Rijswijk Car Repair</h3>
-                            <span class="tag">HTML</span>
+                            <span class="tag">PHP</span>
+                            <span class="tag">JavaScript</span>
                             <span class="tag">CSS</span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">2021-2022</span>
+                            <p>This is a programmed prototype for a reservation system. It's designed for a car wash and car repair company located in Rijswijk, South Holland, Netherlands.</p> 
+                            <p>The system streamlines the booking process, making it easier for customers to schedule their car wash or repair services.</p>
                           </div>
                         </div>
                     </a>
@@ -261,8 +277,14 @@
                           <img src="img\Insect-app.png" alt="Insect App">
                           <div class="overlay">
                             <h3>Insect App</h3>
-                            <span class="tag">HTML</span>
-                            <span class="tag">CSS</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                            <span class="tag">Ubuntu</span>
+                            <span class="tag">FileZilla</span>
+                            <span class="tag">Figma</span>
+                            <span class="tag">2023-2024</span>
+                            <p>The Insect App is a Node.js project that allows users to post about insects they have found.</p> 
+                            <p>The app features a self-made web API and includes a built-in CRUD (Create, Read, Update, Delete) system, making it a comprehensive tool for insect enthusiasts</p>
                           </div>
                         </div>
                     </a>
@@ -273,6 +295,12 @@
                             <h3>Storyline Strategist</h3>
                             <span class="tag">HTML</span>
                             <span class="tag">CSS</span>
+                            <span class="tag">PHP</span>
+                            <span class="tag">Laravel</span>
+                            <span class="tag">Bootstrap</span>
+                            <span class="tag">2022-2023</span>
+                            <p>Storyline Strategist is a website that enables users to create their own storylines. It provides building blocks for users to craft the storyline they want to create for a character.</p>
+                            <p>This tool can be a valuable asset for writers, game developers, and anyone else interested in narrative creation.</p>
                           </div>
                         </div>
                     </a>
@@ -281,15 +309,16 @@
                 </div>
               
                 <div class="slide project" id="sideProjects" style="display: none;">
-                  <p class="section__subtitle--work"><u>Side and test projects</u></p>
+                  <h3 class="section__subtitle--work"><u>Side and test projects</u></h3>
                   <div class="portofolio">
                     <a href="https://raisanm.github.io/imagePredict/" class="portofolio__item">
                       <div class="project-image">
                         <img src="img/mgc.png" alt="Image Classifier">
                         <div class="overlay">
                           <h3>Image Classifier</h3>
-                          <span class="tag">Python</span>
-                          <span class="tag">Machine Learning</span>
+                          <span class="tag">JavaScript</span>
+                          <span class="tag">HTML</span>
+                          <span class="tag">ML5</span>
                         </div>
                       </div>
                     </a>
@@ -298,9 +327,11 @@
                           <img src="img/nn.png" alt="Neural Network Test">
                           <div class="overlay">
                             <h3>Neural Network Test</h3>
-                            <span class="tag">Python</span>
-                            <span class="tag">Machine Learning</span>
-                          </div>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">ML5</span>
+                            <p>A test application of machine learning concepts, providing a hands-on experience with neural network</p>
+                            </div>
                         </div>
                     </a>
                     <a href="https://raisanm.github.io/Decision-Tree/" class="portofolio__item">
@@ -308,8 +339,11 @@
                           <img src="img/dct.png" alt="Decision Tree Test">
                           <div class="overlay">
                             <h3>Decision Tree Test</h3>
-                            <span class="tag">Python</span>
-                            <span class="tag">Machine Learning</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">ML5</span>
+                            <p>Test application of a decision tree.</p>
+                            <p>Decision trees are a type of machine learning model used for classification and regression tasks, and this test project provides a way to interactively test and understand for myself how they work.</p>
                           </div>
                         </div>
                     </a>
@@ -318,8 +352,10 @@
                           <img src="img/pkm.png" alt="Pokedex Cards">
                           <div class="overlay">
                             <h3>Pokedex Cards</h3>
-                            <span class="tag">Python</span>
-                            <span class="tag">Machine Learning</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">JSON</span>
+                            <p>A side project for practicing the usage of web API's. With the use of the pokedex web API, pokemon cards are loaded into the website and by clicking on the card you get to see the shiny version of the pokemon.</p>
                           </div>
                         </div>
                     </a>
@@ -328,8 +364,9 @@
                           <img src="img/trsc.png" alt="Treasure Chest">
                           <div class="overlay">
                             <h3>Treasure Chest</h3>
-                            <span class="tag">Python</span>
-                            <span class="tag">Machine Learning</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">HTML</span>
+                            <p>The game revolves around finding a treasure chest.</p>
                           </div>
                         </div>
                     </a>
@@ -338,8 +375,9 @@
                           <img src="img/tdl.png" alt="To-do-list">
                           <div class="overlay">
                             <h3>To-do-list</h3>
-                            <span class="tag">Python</span>
-                            <span class="tag">Machine Learning</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">HTML</span>
+                            <p>Simple tod-do-list for practicing JavaScript.</p>
                           </div>
                         </div>
                     </a>
@@ -363,12 +401,12 @@
                     </a>
                 </li>
                 <li class="social-list__item">
-                    <a class="social-list__link" href="https://www.linkedin.com/in/raisa-mahesvara-niadilova-1b275220a/">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/raisa-mahesvara-niadilova-05481a304/">
                         <i class="fa-brands fa-linkedin"></i>
                     </a>
                 </li>
             </ul>
-            <p>© Raisa Mahesvara Niadilova, 2022</p>
+            <p>© Raisa Mahesvara Niadilova, 2022-2024</p>
         </footer>
 
         <script src="main.js"></script>
