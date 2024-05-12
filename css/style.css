@@ -283,7 +283,13 @@ header{
 .service {
     text-align: center;
     margin: 2em auto 2em;
+    /* display: none; */
+    transition: opacity 0.5s ease-in-out; /* Add transition for opacity */
+}
 
+.service.active {
+    display: block;
+    opacity: 1; /* Ensure the element is fully visible when active */
 }
 
 @media (min-width: 600px) {
