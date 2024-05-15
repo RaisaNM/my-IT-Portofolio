@@ -65,10 +65,12 @@
     <!--    Services-->
     <section class="my-services" id="services">
         <h2 class="section__title--services">My skills</h2>
+        <p>Click on the buttons below to see my other skills</p>
         <div class="navigation nav-container">
             <button onclick="showSection('programming')">Programming and development</button>
             <button onclick="showSection('design')">Art, Design and Editing</button>
             <button onclick="showSection('research')">Project research and management</button>
+            <button onclick="showSection('projects')">Created & contributed projects</button>
         </div>
 
         <div class="services">
@@ -170,6 +172,174 @@
                     </ul>
                 </div>
             </div>
+            <div id="projects" class="service" style="display: none;">
+              <h2 class="section__title">Projects</h2>
+              <div class="navigation nav-container">
+                <p>Click here below to see main or side projects</p>
+                <button onclick="showProject('mainProjects')">Main Projects</button>
+                <button onclick="showProject('sideProjects')">Side Projects</button>
+              </div>
+              <div class="slide-container">
+                  <div class="slide project active" id="mainProjects">
+                    <h3 class="section__subtitle--work"><u>Main projects</u></h3>
+                    <div class="portofolio">
+                      <a href="https://youtu.be/wUh2BVtgsrg" class="portofolio__item">
+                        <div class="project-image">
+                          <img src="img/q1.png" alt="Questa">
+                          <div class="overlay">
+                            <h3>Questa: Accessibility application</h3>
+                            <p>Role: Front-end</p>
+                            <span class="tag">React Native</span>
+                            <span class="tag">Expo</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="off">Offline</span>
+                            <span class="tag">2022-2023</span>
+                            <p>An app was designed to help people with accessibility issues fill out questionnaires on the go. My contributions included UI design, app development with React Native, and user testing for usability. The project focused on improving accessibility and user experience for individuals facing traditional form challenges.
+                            </p>
+                            </div>
+                        </div>
+                      </a>
+                      <a href="https://store.steampowered.com/app/2700510/Seasons_of_Rocco/" class="portofolio__item">
+                          <div class="project-image">
+                            <img src="img\Seasons of rocco.jpg" alt="Seasons Of Rocco">
+                            <div class="overlay">
+                              <h3>Seasons Of Rocco</h3>
+                              <p>Role: Lead Artist of Vivid Visions Studios</p>
+                              <span class="tag">Unity</span>
+                              <span class="tag">Blender</span>
+                              <span class="tag">Figma</span>
+                              <span class="tag">ClipStudioPaintEX</span>
+                              <span class="store">On Steam</span>
+                              <span class="tag">2023-2024</span>
+                                <p>The game centers on Rocco, a character who collects fruits to survive the winter. As the lead artist, I managed the stylization of the game, working with the art department team. This included overseeing audio, 3D assets, textures, animations, game UI design, and asset management in Unity.</p>
+                            </div>
+                          </div>
+                      </a>
+                      <a href="https://www.youtube.com/watch?v=x5W317hF2FE" class="portofolio__item">
+                          <div class="project-image">
+                            <img src="img\Insect-app.png" alt="Insect App">
+                            <div class="overlay">
+                              <h3>Insect App</h3>
+                              <p>Role:  Full-stack Developer</p>
+                              <span class="tag">Node.js</span>
+                              <span class="tag">MongoDB</span>
+                              <span class="tag">Ubuntu</span>
+                              <span class="tag">FileZilla</span>
+                              <span class="tag">Figma</span>
+                              <span class="off">Offline</span>
+                              <span class="tag">2023-2024</span>
+                              <p>The Insect App is a Node.js project I have created that allows users to post about insects they have found.</p> 
+                              <p>The app features a self-made web API and includes a built-in CRUD (Create, Read, Update, Delete) system, making it a comprehensive tool for insect enthusiasts</p>
+                            </div>
+                          </div>
+                      </a>
+                      <a href="https://www.youtube.com/watch?v=peuvq3A-ih0" class="portofolio__item">
+                          <div class="project-image">
+                            <img src="img\Storyline strategist.png" alt="Storyline Strategist">
+                            <div class="overlay">
+                              <h3>Storyline Strategist</h3>
+                              <p>Role: Full-stack Developer</p>
+                              <span class="tag">HTML</span>
+                              <span class="tag">CSS</span>
+                              <span class="tag">PHP</span>
+                              <span class="tag">Laravel</span>
+                              <span class="tag">Bootstrap</span>
+                              <span class="off">Offline</span>
+                              <span class="tag">2022-2023</span>
+                              <p>
+                                Storyline Strategist is a website I made that allows users to create their own storylines. It provides building blocks for crafting customized storylines for characters. This tool is beneficial for writers, game developers, and individuals interested in narrative creation.
+                              </p>
+                            </div>
+                          </div>
+                      </a>
+                      <!-- Add more main projects here -->
+                    </div>
+                  </div>
+                  <div class="slide project" id="sideProjects" style="display: none;">
+                    <h3 class="section__subtitle--work"><u>Side and test projects</u></h3>
+                    <div class="portofolio">
+                      <a href="https://raisanm.github.io/imagePredict/" class="portofolio__item">
+                        <div class="project-image">
+                          <img src="img/mgc.png" alt="Image Classifier">
+                          <div class="overlay">
+                            <h3>Image Classifier</h3>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">ML5</span>
+                            <span class="on">Online</span>
+                            <p>Test project, an simple application that is able to classify images that's trained with.</p>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="https://raisanm.github.io/Neural-Network/" class="portofolio__item">
+                          <div class="project-image">
+                            <img src="img/nn.png" alt="Neural Network Test">
+                            <div class="overlay">
+                              <h3>Neural Network Test</h3>
+                              <span class="tag">JavaScript</span>
+                              <span class="tag">HTML</span>
+                              <span class="tag">ML5</span>
+                              <span class="on">Online</span>
+                              <p>A test application of machine learning concepts, providing a hands-on experience with neural network</p>
+                              </div>
+                          </div>
+                      </a>
+                      <a href="https://raisanm.github.io/Decision-Tree/" class="portofolio__item">
+                          <div class="project-image">
+                            <img src="img/dct.png" alt="Decision Tree Test">
+                            <div class="overlay">
+                              <h3>Decision Tree Test</h3>
+                              <span class="tag">JavaScript</span>
+                              <span class="tag">HTML</span>
+                              <span class="tag">ML5</span>
+                              <span class="on">Online</span>
+                              <p>Test application of a decision tree.</p>
+                              <p>Decision trees are a type of machine learning model used for classification and regression tasks, and this test project provides a way to interactively test and understand for myself how they work.</p>
+                            </div>
+                          </div>
+                      </a>
+                      <a href="https://raisanm.github.io/Pokedex-Cards/" class="portofolio__item">
+                          <div class="project-image">
+                            <img src="img/pkm.png" alt="Pokedex Cards">
+                            <div class="overlay">
+                              <h3>Pokedex Cards</h3>
+                              <span class="tag">JavaScript</span>
+                              <span class="tag">HTML</span>
+                              <span class="tag">JSON</span>
+                              <span class="on">Online</span>
+                              <p>A side project for practicing the usage of web API's. With the use of the pokedex web API, pokemon cards are loaded into the website and by clicking on the card you get to see the shiny version of the pokemon.</p>
+                            </div>
+                          </div>
+                      </a>
+                      <a href="https://raisanm.github.io/Treasure-Game/" class="portofolio__item">
+                          <div class="project-image">
+                            <img src="img/trsc.png" alt="Treasure Chest">
+                            <div class="overlay">
+                              <h3>Treasure Chest</h3>
+                              <span class="tag">JavaScript</span>
+                              <span class="tag">HTML</span>
+                              <span class="on">Online</span>
+                              <p>The game revolves around finding a treasure chest.</p>
+                            </div>
+                          </div>
+                      </a>
+                      <a href="https://raisanm.github.io/To-Do-List/" class="portofolio__item">
+                          <div class="project-image">
+                            <img src="img/tdl.png" alt="To-do-list">
+                            <div class="overlay">
+                              <h3>To-do-list</h3>
+                              <span class="tag">JavaScript</span>
+                              <span class="tag">HTML</span>
+                              <span class="on">Online</span>
+                              <p>Simple tod-do-list for practicing JavaScript.</p>
+                            </div>
+                          </div>
+                      </a>
+                      <!-- Add more side and test projects here -->
+                    </div>
+                  </div>
+              </div>
+          </div>
             
         </div>
     </section>
@@ -215,13 +385,12 @@
         </section>
 
     <!--    My work-->
-        <section class="my-work" id="work">
+        <!-- <section class="my-work" id="work">
             <h2 class="section__title">Projects</h2>
             <div class="navigation nav-container">
               <button onclick="showProject('mainProjects')">Main Projects</button>
               <button onclick="showProject('sideProjects')">Side Projects</button>
             </div>
-            
             <div class="slide-container">
                 <div class="slide project active" id="mainProjects">
                   <p class="section__subtitle--work"><u>Main projects</u></p>
@@ -369,10 +538,8 @@
                     <!-- Add more side and test projects here -->
                   </div>
                 </div>
-              </div>
-              
-              
-        </section>
+            </div>
+        </section> -->
 
         <!--    Footer-->
         <footer class="footer">
